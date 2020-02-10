@@ -20,12 +20,15 @@ notmain ( void )
 	// init funcs
 	init_uart();
 	init_time();
-
+	wait(ONE_SEC);
+	wait(ONE_SEC);
+	wait(ONE_SEC);
 
 	// do some work
 	uart_puts("\n");
 	uart_puts("\n");
-	uart_puts("<NAME>'s system is booting.\n");
+	uart_puts("\n");
+	uart_puts("Ruochen Wang (RW)'s system is booting.\n");
 	uart_puts("Please hit enter to continue.\n");
 	uart_puts("\n");
 
